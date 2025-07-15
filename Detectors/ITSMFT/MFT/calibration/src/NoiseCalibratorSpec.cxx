@@ -382,7 +382,6 @@ void NoiseCalibratorSpec::sendOutputDcs(DataAllocator& output)
   output.snapshot(Output{clbUtilsDcs::gDataOriginCDBWrapper, "MFT_NoiseMap", 0}, infoDcs);
 }
 
-
 void NoiseCalibratorSpec::sendOutputDcsMerge(DataAllocator& output)
 {
 
